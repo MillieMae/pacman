@@ -5,6 +5,7 @@ public class PacGame {
 
         System.out.println("here");
         Maze test = new Maze();
-        test.go();
+        test.init();
+        test.draw();
     }
 }
